@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1113B17B24122D510011B4BB /* CardUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1113B17A24122D510011B4BB /* CardUIButton.swift */; };
 		112DD6D5240E2E7A009B0BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DD6D4240E2E7A009B0BE2 /* AppDelegate.swift */; };
 		112DD6D7240E2E7A009B0BE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DD6D6240E2E7A009B0BE2 /* SceneDelegate.swift */; };
 		112DD6D9240E2E7A009B0BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DD6D8240E2E7A009B0BE2 /* ViewController.swift */; };
@@ -15,7 +16,6 @@
 		112DD6E1240E2E7C009B0BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112DD6E0240E2E7C009B0BE2 /* Assets.xcassets */; };
 		112DD6E4240E2E7C009B0BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112DD6E2240E2E7C009B0BE2 /* LaunchScreen.storyboard */; };
 		112DD6EF240E2E7C009B0BE2 /* PairsGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DD6EE240E2E7C009B0BE2 /* PairsGameTests.swift */; };
-		11B82BFA2410C1BD0022750D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B82BF92410C1BD0022750D /* Extensions.swift */; };
 		11B82C312410C5CC0022750D /* 6D.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B82BFC2410C5CC0022750D /* 6D.png */; };
 		11B82C322410C5CC0022750D /* 5H.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B82BFD2410C5CC0022750D /* 5H.png */; };
 		11B82C332410C5CC0022750D /* 6S.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B82BFE2410C5CC0022750D /* 6S.png */; };
@@ -68,7 +68,6 @@
 		11B82C632410C5CC0022750D /* 5S.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B82C2E2410C5CC0022750D /* 5S.png */; };
 		11B82C642410C5CC0022750D /* 5D.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B82C2F2410C5CC0022750D /* 5D.png */; };
 		11B82C652410C5CC0022750D /* 8C.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B82C302410C5CC0022750D /* 8C.png */; };
-		11B82C672410C7460022750D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B82C662410C7460022750D /* Card.swift */; };
 		11B82C6B2410EBFB0022750D /* BACK.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B82C6A2410EBFA0022750D /* BACK.png */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +82,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1113B17A24122D510011B4BB /* CardUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUIButton.swift; sourceTree = "<group>"; };
 		112DD6D1240E2E7A009B0BE2 /* PairsGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairsGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		112DD6D4240E2E7A009B0BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		112DD6D6240E2E7A009B0BE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,7 +95,6 @@
 		112DD6EA240E2E7C009B0BE2 /* PairsGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PairsGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112DD6EE240E2E7C009B0BE2 /* PairsGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairsGameTests.swift; sourceTree = "<group>"; };
 		112DD6F0240E2E7C009B0BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11B82BF92410C1BD0022750D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		11B82BFC2410C5CC0022750D /* 6D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6D.png; sourceTree = "<group>"; };
 		11B82BFD2410C5CC0022750D /* 5H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5H.png; sourceTree = "<group>"; };
 		11B82BFE2410C5CC0022750D /* 6S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6S.png; sourceTree = "<group>"; };
@@ -148,7 +147,6 @@
 		11B82C2E2410C5CC0022750D /* 5S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5S.png; sourceTree = "<group>"; };
 		11B82C2F2410C5CC0022750D /* 5D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5D.png; sourceTree = "<group>"; };
 		11B82C302410C5CC0022750D /* 8C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8C.png; sourceTree = "<group>"; };
-		11B82C662410C7460022750D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		11B82C6A2410EBFA0022750D /* BACK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BACK.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,8 +191,7 @@
 			children = (
 				112DD6D4240E2E7A009B0BE2 /* AppDelegate.swift */,
 				112DD6D6240E2E7A009B0BE2 /* SceneDelegate.swift */,
-				11B82BF92410C1BD0022750D /* Extensions.swift */,
-				11B82C662410C7460022750D /* Card.swift */,
+				1113B17A24122D510011B4BB /* CardUIButton.swift */,
 				112DD6D8240E2E7A009B0BE2 /* ViewController.swift */,
 				112DD6DA240E2E7A009B0BE2 /* Main.storyboard */,
 				112DD6E0240E2E7C009B0BE2 /* Assets.xcassets */,
@@ -429,10 +426,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11B82BFA2410C1BD0022750D /* Extensions.swift in Sources */,
-				11B82C672410C7460022750D /* Card.swift in Sources */,
 				112DD6D9240E2E7A009B0BE2 /* ViewController.swift in Sources */,
 				112DD6D5240E2E7A009B0BE2 /* AppDelegate.swift in Sources */,
+				1113B17B24122D510011B4BB /* CardUIButton.swift in Sources */,
 				112DD6D7240E2E7A009B0BE2 /* SceneDelegate.swift in Sources */,
 				112DD6DF240E2E7A009B0BE2 /* PairsGame.xcdatamodeld in Sources */,
 			);
